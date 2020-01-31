@@ -10,7 +10,7 @@ namespace MeganMagoo.MongoDb.Core
         private IMongoDatabase _Database { get; set; }
         public MongoDBContext(MongoDBProperties prop) : this(prop.ConnectionString, prop.DatabaseName)
         {
-
+            this.SetupEntites();
         }
         public MongoDBContext(string ConnectionString, string DatabaseName)
         {

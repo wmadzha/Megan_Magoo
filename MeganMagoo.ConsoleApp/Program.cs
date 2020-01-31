@@ -26,7 +26,7 @@ namespace MeganMagoo.ConsoleApp
             BusinessModel_2 sampleModel2 = new BusinessModel_2();
             sampleModel2.BusinessModelName = "Name2";
             dbContext.Model_2.Add(sampleModel2);
-            var dataList2 = dbContext.Model_1.GetAll();
+            var dataList2 = dbContext.Model_2.GetAll();
             foreach (var a in dataList2)
             {
                 Console.WriteLine(a.BusinessModelName);

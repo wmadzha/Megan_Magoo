@@ -7,7 +7,7 @@ namespace MeganMagoo.Business.DataAccess.NoSqlDbContext
     {
         public BusinessModuleContext(MongoDBProperties prop) : base(prop)
         {
-            this.SetupEntites();
+           
         }
         public IMongoEntitySet<BusinessModel_1> Model_1 { get; set; }
         public IMongoEntitySet<BusinessModel_2> Model_2 { get; set; }
