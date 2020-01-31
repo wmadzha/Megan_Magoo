@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeganMagoo.MongoDb.Core", "MeganMagoo.MongoDb.Core\MeganMagoo.MongoDb.Core.csproj", "{E4DC8370-26D6-4B67-BDA2-BB3F0BC0D603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeganMagoo.Business.DataAccess", "MeganMagoo.Business.DataAccess\MeganMagoo.Business.DataAccess.csproj", "{7AAAFEE3-F5BE-4DAF-9666-58D76A8D39C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeganMagoo.Usage", "MeganMagoo.Usage\MeganMagoo.Usage.csproj", "{DB2F3524-16FE-427F-85E6-ED0298CEFCB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4DC8370-26D6-4B67-BDA2-BB3F0BC0D603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DC8370-26D6-4B67-BDA2-BB3F0BC0D603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DC8370-26D6-4B67-BDA2-BB3F0BC0D603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DC8370-26D6-4B67-BDA2-BB3F0BC0D603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAAFEE3-F5BE-4DAF-9666-58D76A8D39C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAAFEE3-F5BE-4DAF-9666-58D76A8D39C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAAFEE3-F5BE-4DAF-9666-58D76A8D39C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAAFEE3-F5BE-4DAF-9666-58D76A8D39C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2F3524-16FE-427F-85E6-ED0298CEFCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2F3524-16FE-427F-85E6-ED0298CEFCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2F3524-16FE-427F-85E6-ED0298CEFCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2F3524-16FE-427F-85E6-ED0298CEFCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F3361A5-E084-42D3-A487-B7B759BB1642}
+	EndGlobalSection
+EndGlobal
