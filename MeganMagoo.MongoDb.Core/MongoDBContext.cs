@@ -15,7 +15,7 @@ namespace MeganMagoo.MongoDb.Core
         public MongoDBContext(string ConnectionString, string DatabaseName)
         {
             _Client = new MongoClient(ConnectionString);
-            var _Database = _Client.GetDatabase(DatabaseName);
+            _Database = _Client.GetDatabase(DatabaseName);
         }
         protected IMongoDatabase Database()
         {
@@ -46,7 +46,6 @@ namespace MeganMagoo.MongoDb.Core
         {
             this._Database = Database;
             this._CollectionName = typeof(T).Name;
-            _Database.GetCollection<T>(_CollectionName);
             _Collection = _Database.GetCollection<T>(this._CollectionName);
             if (_Collection == null)
             {
