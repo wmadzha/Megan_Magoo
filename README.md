@@ -1,6 +1,6 @@
 # Megan_Magoo
 
-Simple Helper For Treating MongoDB as business model entities . 
+Simple Helper For Treating MongoDB as business model entities with CRUD Helpers . where it feels like working with EF
 
 
 # Special Thanks To 
